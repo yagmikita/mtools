@@ -1,0 +1,30 @@
+{
+    "name": "mtools",
+    "description": "Marketing tools",
+    "keywords": ["marketing", "tools", "marketing-tools"],
+    "type": "project",
+    "license": "GNU GENERAL PUBLIC LICENSE",
+    "support": {
+        "issues": "https://github.com/yagmikita/mtools/issues?state=open",
+        "source": "https://github.com/yagmikita/mtools"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "phploc/phploc": "*",
+        "phpmd/phpmd": "@stable",
+        "phpunit/phpunit": "4.2.*",
+        "sebastian/phpcpd": "*",
+        "squizlabs/php_codesniffer": "1.4.6"
+    },
+    "autoload": {
+        "psr-0": {
+            "models": "src",
+            "services": "src",
+            "library": "src",
+            "tests": "src"
+        }
+    }
+}
